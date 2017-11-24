@@ -1,12 +1,12 @@
-# Makefile for Hello World project
+# Makefile for Loops project
 
 # List of files
-C_SRCS		= main.c
-C_OBJS		= main.o
+C_SRCS		= main.c loops.c
+C_OBJS		= main.o loops.o
 C_HEADERS	= 
 
 OBJS		= ${C_OBJS} 
-EXE	        = hello
+EXE	        = loops
 
 # Compiler and loader commands and flags
 GCC	= gcc
